@@ -1,0 +1,1 @@
+export const indexURL = "http://localhost:3000/indexname"

@@ -1,0 +1,281 @@
+@charset "utf-8";
+
+/* CSS Document */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+dd,
+p,
+td,
+input,
+select,
+option,
+textarea {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	font-size: 26.67vw;
+}
+
+body {
+	font-family: "微软雅黑", Arial;
+	display: flex;
+	flex-direction: column;
+	background: #ffffff;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+img {
+	border: none;
+	display: block;
+}
+
+.cartsheaderBox {
+	background: #fff;
+}
+
+/* header */
+.cartsHeader {
+	height: .46rem;
+	line-height: .46rem;
+	padding: 0 .18rem;
+	font-size: .15rem;
+	color: #202220;
+	position: relative;
+}
+
+.cartsHeader h3 {
+	text-align: center;
+}
+
+.cartsHeader span {
+	position: absolute;
+	right: .2rem;
+	top: .0rem;
+}
+
+/* 大盒子 */
+.cartsflexBox {
+	width: 100%;
+	flex: 1;
+	overflow-y: auto;
+	overflow-x: hidden;
+	background: #ffffff;
+}
+
+.uls {
+	background: #fff;
+}
+
+.uls li {
+	display: flex;
+	justify-content: space-around;
+	border-top: 1px solid #f5f5f5;
+	padding: .32rem 0 .3rem;
+}
+.uls li:last-child{
+	margin-bottom: .4rem;
+}
+.uls  .Spans {
+	position: relative;
+	width: .2rem;
+	height: .2rem;
+	display: flex;
+}
+
+.uls  .input_check {
+	/*visibility: hidden;*/
+	opacity: 0;
+	width: .2rem;
+	height: .2rem;
+	position: absolute;
+}
+.uls label{
+	display: inline-block;
+	width: .2rem;
+	height: .2rem;
+	background: url("../img/carts/icon_radio3.png")  center left no-repeat;
+	background-size: 20px 20px;
+	/*position: absolute;*/
+}
+.uls .input_check:checked+label {
+	/*content: "";*/
+	/*position: absolute;*/
+	/*left: 5px;*/
+    /*bottom: .08rem;*/
+    /*width: .08rem;*/
+    /*height: 3px;*/
+	/*border: 2px solid #e92333;*/
+	/*border-top-color: transparent;*/
+	/*border-right-color: transparent;*/
+	/*-ms-transform: rotate(-60deg);*/
+	/*-moz-transform: rotate(-60deg);*/
+	/*-webkit-transform: rotate(-60deg);*/
+	/*transform: rotate(-45deg);*/
+	background: url("../img/carts/icon_radio4.png") left center no-repeat;
+	background-size: 20px 20px;
+}
+
+.uls li img {
+	width: 1.05rem;
+	height: .79rem;
+}
+
+.liRight {
+	display: flex;
+	flex-direction: column;
+}
+
+.liRight h3 {
+	font-size: .16rem;
+	color: #2a2e2a;
+	line-height: .3rem;
+}
+
+.liRight p {
+	font-size: .14rem;
+	color: #818081;
+	line-height: .25rem;
+}
+.p{
+	display: flex;
+	justify-content: space-between;
+	margin-top: .1rem;
+}
+.liRight .p span {
+	font-size: .14rem;
+	color: #e41516;
+}
+.pRight{
+	display: flex;
+	/*margin-top: .08rem;*/
+}
+.p .pRight span{
+	font-size: .2rem;
+	color: #000000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.p .pRight input{
+	width:.3rem;
+	height: .2rem;
+	border:1px solid #ccc;
+	outline: none;
+	text-align: center;
+}
+
+/* pay */
+.pay {
+	font-size: .16rem;
+	color: #000;
+	display: flex;
+	justify-content: space-between;
+	height: .5rem;
+	line-height: .5rem;
+}
+.pay .Spans {
+	position: relative;
+	width: .2rem;
+	height: .2rem;
+	margin-top: .15rem;
+	margin-left: .15rem;
+}
+
+.pay p span {
+	font-size: .1rem;
+	color: #a2a2a2;
+	margin-right: .1rem;
+}
+
+.pay p b {
+	font-size: .18rem;
+	color: #eb4429;
+}
+
+.pay a {
+	width: 1.25rem;
+	height: .5rem;
+	background: #eb4429;
+	color: #fff;
+	line-height: .5rem;
+	text-align: center;
+	border-radius: 2px;
+}
+/*.pay label{*/
+	/*margin-left: .1rem;*/
+	/*margin-top: .1rem;*/
+/*}*/
+/*.pay .input_check:checked+label:after {*/
+	/*left: .15rem;*/
+	/*bottom: -.01rem;*/
+/*}*/
+
+
+/* nav */
+nav {
+	display: flex;
+	justify-content: space-around;
+}
+
+nav a {
+	display: flex;
+	flex-direction: column;
+	color: #3b3b3b;
+	padding: .22rem 0rem;
+	align-items: center;
+}
+
+nav a i {
+	font-size: .32rem !important;
+	color: #474747 !important;
+	text-align: center;
+}
+
+nav a span {
+	font-size: .11rem;
+	color: #2f3331;
+	text-align: left;
+}
+
+
+/* footer */
+footer {
+	border-top: 1px solid #ece7ec;
+}
+
+.first_nav {
+	color: #f72863 !important;
+}
+
+.first_nav+span {
+	color: #f72863 !important;
+}
+.empty{
+	font-size: .2rem;
+	text-align: center;
+	display: none;
+	margin-top: 1.5rem;
+}

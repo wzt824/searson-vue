@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+/* CSS Document */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+dl,
+dd,
+p,
+td,
+input,
+select,
+option,
+textarea {
+	margin: 0;
+	padding: 0;
+}
+
+/* html,
+body {
+	height: 100%;
+} */
+
+html {
+	font-size: 26.67vw;
+}
+
+body {
+	font-family: "微软雅黑", Arial;
+	display: flex;
+	flex-direction: column;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+img {
+	border: none;
+	display: block;
+}
+/* header */
+.shicaiHeader{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: .47rem;
+    line-height: .47rem;
+    position: relative;
+}
+.shicaiHeader img{
+    width:.35rem ;
+    height:.35rem ;
+    position: absolute;
+    left:.1rem ;
+    top:.1rem;
+}
+.shicaiHeader h3{
+    font-size: .16rem;
+}
+/* nav */
+.shicaiNav{
+    height: .41rem;
+    line-height: .41rem;
+    border-top:1px solid #dfdfdf;
+    border-bottom:1px solid #dfdfdf;
+    display: flex;
+    padding-left: .21rem;
+}
+.shicaiNav a{
+    font-size: .15rem;
+    color: #000;
+    margin-left: .4rem;
+    text-align: center;
+}
+.shicaiNav a:nth-of-type(1){
+    margin-left: .1rem;
+}
+.fixColor{
+	border-bottom: .04rem solid #e03335;
+    color: #e03335;
+}
+.shicaiNav a:hover{
+    border-bottom: .04rem solid #e03335;
+    color: #e03335;
+}
+/* article */
+.shicaiArticle{
+    padding: 0 .15rem;
+    margin-top: 10px;
+}
+.shicaiArticle .shicaisection2{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.shicaiArticle .shicaisection2 a img{
+	width:1.68rem;
+	height: 1.31rem;
+	margin: 0;
+}
+.shicaisection2 .shicaisection1{
+	display: flex;
+	justify-content: flex-start;
+	margin-right: .05rem;
+	margin-bottom: .08rem;
+	border:1px solid #f5f0f5;
+}
+.shicaisection2 .shicaisection1:nth-of-type(2n){
+	margin-right: 0;
+}
+.shicaisection2 .shicaisection1 h4,p,span{
+	text-indent: .05rem;
+}
+.shicaisection1{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+.shicaisection1 a img{
+	width: 1.69rem;
+	height: 1.25rem;
+	margin: 0 auto;
+}
+.shicaisection1 h4{
+	font-size: .15rem;
+	color: #434343;
+	line-height: .28rem;
+}
+.shicaisection1 span{
+	font-size: .14rem;
+	color: #e51716;
+	margin-bottom: .05rem;
+}
+.shicaisection1_img{
+	width:.76rem;
+	height: .76rem;
+	position: absolute;
+	bottom:.4rem;
+	right:.12rem;
+}

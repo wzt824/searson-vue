@@ -1,0 +1,65 @@
+项目代号+业务模块+功能
+一.index
+1.headerBox(下面俩不细分)
+	seasonIndexHeader
+	seasonIndexSearch
+
+2.seasonIndexFlexBox
+	seasonIndexBanner
+	seasonIndexNav
+	seasonIndexTip
+	seasonIndexSection
+	seasonIndexlist
+	seasonIndexArticle
+将6个子组件放入seasonIndexFlexBox组件中
+3.seasonIndexFooter
+将上面3个组件放入seasonIndex中
+
+二.classify
+
+1.classifyHeader
+2.classifySectionBox
+	classifySectionLeft
+	classifySectionRight
+3.classifyFooter
+
+三.timer
+
+1.seasonTimerHeader
+2.seasonTimerSectionBox
+	seasonTimerSectionTop
+	seasonTimerSectionBottomBox
+3.seasonTimerfooter
+
+四.carts
+
+1.cartsHeader
+2.cartsFlexBox
+3.cartsTotal
+4.cartsFooter
+
+
+五.me
+
+1.meHeader
+2.meFlexBox
+3.meFooter
+
+
+六.new
+
+1.newHeader
+2.newSection
+	newNav
+	newArticle
+
+七.shicai
+1.shicaiHeader
+2.shicaiNav
+3.shicaiArticle
+
+八.productDetail
+
+1.productDetailHeader
+2.productDetailSection
+3.productDetaildetail
